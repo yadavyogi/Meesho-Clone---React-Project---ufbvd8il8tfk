@@ -6,9 +6,9 @@ import { addName } from "../../Redux/action.js";
 
 export default function Login() {
   let [data, setData] = React.useState({
-    email: "harsh.gajera17@gmail.com",
-    fname: "Harsh",
-    lname: "Gajera",
+    email: "yk243151@gmail.com",
+    fname: "Yogesh",
+    lname: "Kumar",
     otp: localStorage.getItem("otp"),
   });
   let navigate = useNavigate();
