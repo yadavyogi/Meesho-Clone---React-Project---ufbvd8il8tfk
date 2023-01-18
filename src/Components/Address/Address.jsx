@@ -6,14 +6,14 @@ import PhoneIconOutlinedIcon from "@mui/icons-material/PhoneOutlined";
 import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 import "./address.css";
 let data = [
-  "Harsh Gajera",
-  7046581170,
+  "Yogesh Kumar",
+  7526037750,
   "B-107, XYZ Complex",
-  "Kheda Road",
-  387411,
-  "Kheda",
-  "Gujarat",
-  "Near Busstand",
+  "Lucknow",
+  226017,
+  "Lucknow",
+  "Uttar Pradesh",
+  "Near Budheswar",
 ];
 export default function Address() {
   let [inp, setInp] = React.useState(data);
